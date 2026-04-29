@@ -9,7 +9,7 @@ def eliminar_venta(ventas):
         cantidad = int(input("Ingrese la cantidad: "))
         precio = float(input("Ingrese el precio: "))
     except ValueError:
-        print("❌ Error: cantidad o precio inválido")
+        print("Error: cantidad o precio inválido")
         return
 
     # Buscar la venta que coincida exactamente
