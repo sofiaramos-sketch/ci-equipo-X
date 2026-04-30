@@ -15,6 +15,3 @@ def ver_ventas(ventas):
         print(f"{i:<5}{venta['producto']:<20}{venta['cantidad']:<10}{venta['precio']:<10.2f}")
 
     print("-" * 50)
-
-   #prueba fallas test 
-    assert "IMPRESORA" in salida
